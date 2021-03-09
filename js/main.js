@@ -39,9 +39,9 @@ $(document).ready(function(){
 });
   
 function ClickFunction1(){
-  location.href = https://github.com/gabyisbored';
+  window.location.href = 'https://github.com/gabyisbored';
 }
 
 function ClickFunction2(){
-    location.href = 'https://discord.com/users/GabyIsBored';
+    window.location.href = 'https://discord.com/users/GabyIsBored';
   }
