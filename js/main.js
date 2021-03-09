@@ -37,3 +37,11 @@ $(document).ready(function(){
     });
 
 });
+  
+function ClickFunction1(){
+  location.href = 'github.com';
+}
+
+function ClickFunction2(){
+    location.href = 'discord.com';
+  }
