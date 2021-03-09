@@ -38,10 +38,14 @@ $(document).ready(function(){
 
 });
   
-function ClickFunction1(){
+function Social1(){
   window.location.href = 'https://github.com/gabyisbored';
 }
 
-function ClickFunction2(){
+function Social2(){
     window.location.href = 'https://discord.com/users/GabyIsBored';
-  }
+}
+
+function Article1(){
+  location.href = 'Articles/article1.html'
+}
