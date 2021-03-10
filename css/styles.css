@@ -95,7 +95,7 @@ p{
     background: #ffffff;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 6vh;
+    min-height: 9vh;
     overflow: hidden;
     transition: 1s ease-in-out;
 }
@@ -184,7 +184,7 @@ main .site-title{
 }
 
 main .site-title .site-background{
-    padding-top: 10rem;
+    padding-top: 13rem;
     text-align: center;
     color: var(--white);
 }
