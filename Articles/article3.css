@@ -1,0 +1,50 @@
+@import url('../css/fonts.css');
+
+:root{
+    --Abel:'Abel',cursive;
+    --Anton:'Anton',cursive;
+    --Josefin:'Josefin',cursive;
+    --Lexend:'Lexend',cursive;
+    --Livvic:'Livvic',cursive;
+}
+
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.article{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.article .title{
+    color: blue;
+}
+
+.back-button{
+    padding: 1.4rem;
+    font-size: 1.7rem;
+}
+
+.back-button h1{
+    color: black;
+    padding: .1rem 0;
+    margin: 0;
+}
