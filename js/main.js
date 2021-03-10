@@ -49,3 +49,15 @@ function Social2(){
 function Article1(){
   location.href = 'Articles/article1.html'
 }
+function Article2(){
+  location.href = 'Articles/article2.html'
+}
+function Article3(){
+  location.href = 'Articles/article3.html'
+}
+function Article4(){
+  location.href = 'Articles/article4.html'
+}
+function Blog1(){
+  location.href = 'Blogs/Blog1.html'
+}
