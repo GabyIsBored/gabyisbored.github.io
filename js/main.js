@@ -59,5 +59,5 @@ function Article4(){
   location.href = 'Articles/article4.html'
 }
 function Blog1(){
-  location.href = 'Blogs/Blog1.html'
+  location.href = 'Blogs/blog1.html'
 }
