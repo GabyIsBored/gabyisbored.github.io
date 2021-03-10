@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
+  <!------AOS Library---->
+  <link rel="stylesheet" href="./css/aos.css">
+
 </head>
 <body>
 
@@ -48,7 +51,7 @@
      <!--------------- Site title --------------->
 
       <section class="site-title">
-        <div class="site-background">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
           <h2>Coding Languages</h2>
           <button class="btn">Explore</button>
         </div>
@@ -65,7 +68,7 @@
           </div>
           <div class="container">
             <div class="owl-carousel owl-theme blog-post">
-              <div class="blog-content">
+              <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
                 <img src="./assets/Pics/download.png" alt="post-1">
               <div class="blog-title">
                 <h3>Best Frameworks For JavaScript</h3>
@@ -73,7 +76,7 @@
                 <span>2 minutes</span>
               </div>
             </div>
-              <div class="blog-content">
+              <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
                 <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
               <div class="blog-title">
                 <h3>Why You Should Go Fuck Yourself</h3>
@@ -81,7 +84,7 @@
                 <span>2 minutes</span>
               </div>
             </div>
-              <div class="blog-content">
+              <div class="blog-content"data-aos="fade-left" data-aos-delay="200">
                 <img src="./assets/Pics/download3.jpg" alt="post-1">
               <div class="blog-title">
                 <h3>When Should Your Kids Start Coding And Why?</h3>
@@ -107,7 +110,7 @@
         </div>
          <div class="site-content">
            <div class="posts">
-             <div class="post-content">
+             <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                <div class="post-image">
                  <div>
                    <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
@@ -126,7 +129,7 @@
                </div>
              </div>
              <hr>
-             <div class="post-content">
+             <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                <div class="post-image">
                  <div>
                    <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
@@ -144,7 +147,7 @@
                </div>
              </div>
              <hr>
-             <div class="post-content">
+             <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
               <div class="post-image">
                 <div>
                   <img src="./assets/Blog-post/feature-img1.jpg" class="img" alt="blog1">
@@ -173,19 +176,19 @@
              <div class="category">
                <h2>Category</h2>
                <ul class="category-list">
-                 <li class="list-items">
+                 <li class="list-items" data-aos="fade-left" data-aos-delay="100">
                    <a href="#">Software & Coding</a>
                    <span>(05)</span>
                  </li>
-                 <li class="list-items">
+                 <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                    <a href="#">Cooking Recipes</a>
                    <span>(05)</span>
                  </li>
-                 <li class="list-items">
+                 <li class="list-items" data-aos="fade-left" data-aos-delay="300">
                    <a href="#">Dumshit</a>
                    <span>(05)</span>
                  </li>
-                 <li class="list-items">
+                 <li class="list-items" data-aos="fade-left" data-aos-delay="400">
                    <a href="#">My Personal Shit Life</a>
                    <span>(05)</span>
                  </li>
@@ -194,7 +197,7 @@
              </div>
              <div class="popular-post">
                <h2>Popular Post</h2>
-               <div class="post-content">
+               <div class="post-content" data-aos="flip-up" data-aos-delay="200">
                 <div class="post-image">
                   <div>
                     <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
@@ -209,7 +212,7 @@
                     This diet will help her to at least be back to 1000kg</a>
                 </div>
               </div>
-              <div class="post-content">
+              <div class="post-content" data-aos="flip-up" data-aos-delay="300">
                 <div class="post-image">
                   <div>
                     <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
@@ -224,7 +227,7 @@
                 </div>
               </div>
              </div>
-             <div class="newsletter">
+             <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
                <h2>Newsletter</h2>
                <div class="form-element">
                  <input type="text" class="input-element" placeholder="Email">
@@ -234,10 +237,10 @@
              <div class="popular-tags">
                  <h2>Popular Tags</h2>
                  <div class="tags flex-row">
-                   <span class="tag">Software & Coding</span>
-                   <span class="tag">Cooking Recipes</span>
-                   <span class="tag">Dumshit</span>
-                   <span class="tag">My Personal Shit Life</span>
+                   <span class="tag" data-aos="flip-up" data-aos-delay="100">Software & Coding</span>
+                   <span class="tag" data-aos="flip-up" data-aos-delay="200">Cooking Recipes</span>
+                   <span class="tag" data-aos="flip-up" data-aos-delay="300">Dumshit</span>
+                   <span class="tag" data-aos="flip-up" data-aos-delay="400">My Personal Shit Life</span>
                  </div>
             </div>
            </aside>
@@ -256,6 +259,9 @@
 
   <!-- Owl Carousel JS -->
   <script src="./js/owl.carousel.min.js"></script>
+
+  <!------AOS Library---->
+  <script src="./js/aos.js"></script>
 
   <!-- Script -->
   <script src="./js/main.js"></script>
