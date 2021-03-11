@@ -35,8 +35,14 @@ $(document).ready(function(){
         navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
         responsive: responsive
     });
+    
+
+    //AOS instance
+     AOS.init();
 
 });
+
+
   
 function Social1(){
   window.location.href = 'https://github.com/gabyisbored';
