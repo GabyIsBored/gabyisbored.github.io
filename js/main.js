@@ -78,3 +78,7 @@ const firebaseConfig = {
   appId: "1:467919383452:web:4e53572394b4e0abb3b659",
   measurementId: "G-Z41WRW4TT1"
 };
+
+var ref = firebase.database().ref();                           ref.on("value", function(snapshot){
+    output.innerHTML = JSON.stringify(snapshot.val(), null, 2);
+});
