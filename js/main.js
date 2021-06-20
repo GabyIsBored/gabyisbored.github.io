@@ -67,3 +67,14 @@ function Article4(){
 function Blog1(){
   location.href = 'Blogs/blog1.html'
 }
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
+  authDomain: "gabys-awesome-and-sexy-blog.firebaseapp.com",
+  databaseURL: "https://gabys-awesome-and-sexy-blog-default-rtdb.firebaseio.com",
+  projectId: "gabys-awesome-and-sexy-blog",
+  storageBucket: "gabys-awesome-and-sexy-blog.appspot.com",
+  messagingSenderId: "467919383452",
+  appId: "1:467919383452:web:4e53572394b4e0abb3b659",
+  measurementId: "G-Z41WRW4TT1"
+};
