@@ -70,19 +70,20 @@ function Blog1(){
 
 (function()  {
     
-const firebaseConfig = {
-  apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
-  authDomain: "gabys-awesome-and-sexy-blog.firebaseapp.com",
-  databaseURL: "https://gabys-awesome-and-sexy-blog-default-rtdb.firebaseio.com",
-  projectId: "gabys-awesome-and-sexy-blog",
-  storageBucket: "gabys-awesome-and-sexy-blog.appspot.com",
-  messagingSenderId: "467919383452",
-  appId: "1:467919383452:web:4e53572394b4e0abb3b659",
-  measurementId: "G-Z41WRW4TT1"
-};
-
-firebase.initializeApp(firebaseConfig);
-
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
+    authDomain: "gabys-awesome-and-sexy-blog.firebaseapp.com",
+    databaseURL: "https://gabys-awesome-and-sexy-blog-default-rtdb.firebaseio.com",
+    projectId: "gabys-awesome-and-sexy-blog",
+    storageBucket: "gabys-awesome-and-sexy-blog.appspot.com",
+    messagingSenderId: "467919383452",
+    appId: "1:467919383452:web:4e53572394b4e0abb3b659",
+    measurementId: "G-Z41WRW4TT1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    
 const preObject = document.getElementById('object');
 
 const dbRefObject = firebase.database().ref().child('object');
