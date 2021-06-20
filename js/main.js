@@ -81,7 +81,7 @@ const firebaseConfig = {
   measurementId: "G-Z41WRW4TT1"
 };
 
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 
 const preObject = document.getElementById('object');
 
