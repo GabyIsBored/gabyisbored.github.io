@@ -79,6 +79,11 @@ const firebaseConfig = {
   measurementId: "G-Z41WRW4TT1"
 };
 
-var ref = firebase.database().ref();                           ref.on("value", function(snapshot){
-    output.innerHTML = JSON.stringify(snapshot.val(), null, 2);
-});
+firebase.initializeApp(config);
+
+const preObject = document.getElementById('object');
+
+const dbRefObject = firebase.database().ref().child('object');
+
+dbReObject.on('value', snap => console.log(snap.val()));
+}());
