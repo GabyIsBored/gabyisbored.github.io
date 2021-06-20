@@ -69,6 +69,7 @@ function Blog1(){
 }
 
 (function()  {
+    
 const firebaseConfig = {
   apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
   authDomain: "gabys-awesome-and-sexy-blog.firebaseapp.com",
