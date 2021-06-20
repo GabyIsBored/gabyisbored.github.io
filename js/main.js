@@ -68,6 +68,7 @@ function Blog1(){
   location.href = 'Blogs/blog1.html'
 }
 
+(function()  {
 const firebaseConfig = {
   apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
   authDomain: "gabys-awesome-and-sexy-blog.firebaseapp.com",
