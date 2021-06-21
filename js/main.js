@@ -67,9 +67,7 @@ function Article4(){
 function Blog1(){
   location.href = 'Blogs/blog1.html'
 }
-
-(function()  {
-    
+  
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
     apiKey: "AIzaSyDQMSaC1fs-RBZEfoFUzWRTZRRShEQBQdg",
@@ -83,6 +81,4 @@ function Blog1(){
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-    
-};
 
