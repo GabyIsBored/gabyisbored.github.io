@@ -84,10 +84,15 @@ function Blog1(){
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
     
-const preObject = document.getElementById('object');
-
-const dbRefObject = firebase.database().ref().child('object');
-
-dbReObject.on('value', snap => console.log(snap.val()));
+const dbRef = firebase.database().ref();
+dbRef.child("users").child(userId).get().then((snapshot) => {
+  if (snapshot.exists()) {
+    console.log(snapshot.val());
+  } else {
+    console.log("No data available");
+  }
+}).catch((error) => {
+  console.error(error);
+});
     
 }());
