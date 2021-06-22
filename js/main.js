@@ -82,8 +82,14 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+//Database shit
 const preObject = document.getElementById('object');
 
 const dbRef = firebase.database().ref().child('object');
 
-dbRef.on('value', snap => console.log(snap.val()));
+dbRef.on("value", snap => console.log(snap.val()));
+
+firebase.auth().onAuthStateChanged(firebaseUser => {
+  if (!firebaseUser) {
+   location.href = './login/loginPage.html'
+  }})
