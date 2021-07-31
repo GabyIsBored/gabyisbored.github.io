@@ -85,11 +85,18 @@ firebase.initializeApp(firebaseConfig);
 //Database shit
 const preObject = document.getElementById('object');
 
-const dbRef = firebase.database().ref().child('object');
-
-dbRef.on("value", snap => console.log(snap.val()));
+const logoutBtn = document.getElementById('logoutBtn');
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
   if (!firebaseUser) {
    location.href = './login/loginPage.html'
   }})
+
+logoutBtn.addEventListener('click', e => {
+  firebase.auth().signOut();
+});
+
+const user = firebase.auth().currentUser;
+if (user != null) {
+  console.log("lmao");
+}
