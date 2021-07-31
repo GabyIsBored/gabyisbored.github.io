@@ -155,6 +155,12 @@ p{
     font-family: var(--Lexend);
 }
 
+.nav .logoutButton .btn{
+    margin: 1.2rem;
+    justify-content: space-between;
+    background: var(--sky);
+}
+
 .nav .social{
     padding: 1.4rem;
     font-size: 3rem;
