@@ -95,7 +95,7 @@ p{
     background: #ffffff;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 9vh;
+    min-height: 10vh;
     overflow: hidden;
     transition: 1s ease-in-out;
 }
@@ -104,28 +104,6 @@ p{
   justify-content: space-between;
 }
 
-.nav .toggle-collapse{
-    position: absolute;
-    top: 0%;
-    width: 90%;
-    cursor: pointer;
-    display: none;
-}
-
-.nav .toggle-collapse .toggle-icons{
-    display: flex;
-    justify-content: flex-end;
-    padding: 1.7rem 0;
-}
-
-.nav .toggle-collapse .toggle-icons i{
-    font-size: 1.4rem;
-    color: var(--text-gray)
-}
-
-.collapse{
-    height: 35rem;
-}
 
 .nav .nav-items{
     display: flex;
@@ -155,12 +133,6 @@ p{
     font-family: var(--Lexend);
 }
 
-.nav .logoutButton .btn{
-    margin: 1.2rem;
-    justify-content: space-between;
-    background: var(--sky);
-}
-
 .nav .social{
     padding: 1.4rem;
     font-size: 3rem;
@@ -174,6 +146,14 @@ p{
     color: #a1c4fd;
 }
 /*-------x-----Navbar-------x-----*/
+
+/*------------------------- Welcome Back Thing ----------------------------*/
+.welcomesign {
+    padding: 6rem;
+    text-align: center;
+}
+
+/*------------------------- Welcome Back Thing ----------------------------*/
 
 /*------------Main Content-----------*/
 
